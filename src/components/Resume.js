@@ -4,7 +4,7 @@ const Resume = props=> {
 
     return (
       <div>
-          <h1 className="display-1 text-right">Experience</h1>
+          <h1 className="display-3 text-right">Experience</h1>
         <hr />
           <br />
         <div className="row">

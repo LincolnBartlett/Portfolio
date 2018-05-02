@@ -5,10 +5,10 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <h1 className="display-1 text-right">Projects</h1>
+        <h1 className="display-3 text-right">Projects</h1>
         <hr />
         <div className="row">
-          <div className="col">
+          <div className="col-md-6">
             <a href="http://www.courter.io">
               <img
                 className="rounded project-image border"
@@ -17,7 +17,7 @@ class Projects extends Component {
               />
             </a>
           </div>
-          <div className="col">
+          <div className="col-md-6">
             <h3>courter.io</h3>
             <span class="badge badge-pill badge-success">React</span>
             <span class="badge badge-pill badge-success">Redux</span>
@@ -32,7 +32,7 @@ class Projects extends Component {
             <p>
               Courter.io is a dating app aimed at bringing people with common
               interests together. Instead of browsing through pictures you
-              browse through icebreakers to connect over ideas, not images.
+              browse through icebreakers to connect over ideas not images.
               <br />
               Quick Facts:
               <ul>
@@ -56,8 +56,17 @@ class Projects extends Component {
         <hr />
         <br/ >
         <div className="row">
-          <div className="col">
-          <div className="text-right">
+        <div className="col-md-6">
+            <a href="https://giftv.herokuapp.com">
+              <img
+                className="rounded project-image border"
+                src="./img/giftvthumb.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div className="col-md-6">
+          <div>
             <h3>gifTV</h3>
             <span class="badge badge-pill badge-success">React</span>
             <span class="badge badge-pill badge-warning">node.js</span>
@@ -81,18 +90,9 @@ class Projects extends Component {
             </p>
             <a
               href="https://github.com/LincolnBartlett/giftv"
-              className="btn btn-outline-primary"
+              className="btn btn-outline-primary float-right"
             >
               View on github
-            </a>
-          </div>
-          <div className="col">
-            <a href="https://giftv.herokuapp.com">
-              <img
-                className="rounded project-image border"
-                src="./img/giftvthumb.png"
-                alt=""
-              />
             </a>
           </div>
         </div>

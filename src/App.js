@@ -11,10 +11,12 @@ class App extends Component {
         <Header/>
         <div className="container">
           <div className="row">
-            <div className="col">
+            <div className="col-md">
               <Skills />
               <br />
+              <br />
               <Projects />
+              <br />
               <br />
               <Resume />
             </div>
