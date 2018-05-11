@@ -15,7 +15,7 @@ class Header extends Component {
         <br/>
         <img
           className="img-thumbnail rounded-circle main-image mx-auto d-block"
-          src="./img/meandpep.jpg"
+          src="./img/lincoln.png"
           alt=""
         />
         <h1>
