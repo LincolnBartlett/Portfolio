@@ -8,9 +8,11 @@ const Skills = props => {
           <h5>Languages</h5>
           <hr />
           <ul className="list-inline">
+          <li className="list-inline-item">C++</li>
+            <li className="list-inline-item">C#</li>
             <li className="list-inline-item">Javascript</li>
-            <li className="list-inline-item">HTML 5</li>
             <li className="list-inline-item">CSS</li>
+            <li className="list-inline-item">HTML 5</li>
           </ul>
         </div>
         <div className="col">
